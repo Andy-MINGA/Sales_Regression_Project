@@ -44,7 +44,7 @@ using Python.
 ### (c) Fitted Model Equation
 
 \[
-\hat{Sales} = 13.0435 - 0.0219 \cdot Urban_{Yes} + 1.2006 \cdot US_{Yes} - 0.0545 \cdot Price
+$\hat{Sales} = 13.0435 - 0.0219 \cdot Urban_{Yes} + 1.2006 \cdot US_{Yes} - 0.0545 \cdot Price$
 \]
 
 **Notes:**
@@ -112,3 +112,4 @@ Sales \sim Price + US
 - Diagnostic checks show no extreme outliers or influential points that compromise model validity.
 
 ---
+
