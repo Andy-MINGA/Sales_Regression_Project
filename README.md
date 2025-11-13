@@ -99,7 +99,7 @@ Sales \sim Price + US
 ---
 
 ### (h) Diagnostics: Outliers, Leverage, and Influence
-- **Outliers:** Standardized residuals \(|$r_i$| > 2\) (moderate), >3 (extreme)  
+- **Outliers:** Standardized residuals \(| $r_i$ | > 2\) (moderate), >3 (extreme)  
 - **High Leverage Points:** Leverage > 2 × average leverage (\($2 \bar{h}$\))  
 - **Influential Points:** Cook’s distance \($D_i > 0.5$\) (moderate), >1 (high); visualized as large bubbles in influence plots
 
@@ -112,6 +112,7 @@ Sales \sim Price + US
 - Diagnostic checks show no extreme outliers or influential points that compromise model validity.
 
 ---
+
 
 
 
