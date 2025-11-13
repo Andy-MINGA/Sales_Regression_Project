@@ -58,10 +58,10 @@ $\hat{Sales} = 13.0435 - 0.0219 \cdot Urban_{Yes} + 1.2006 \cdot US_{Yes} - 0.05
 Null hypothesis for each predictor:  
 
 \[
-H_0: \beta_j = 0
+$H_0: \beta_j = 0$
 \]
 
-- Reject \(H_0\) if p-value < 0.05  
+- Reject \($H_0$\) if p-value < 0.05  
 - In this model:
   - **Price** and **US** are significant  
   - **Urban** is not significant
@@ -112,4 +112,5 @@ Sales \sim Price + US
 - Diagnostic checks show no extreme outliers or influential points that compromise model validity.
 
 ---
+
 
