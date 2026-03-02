@@ -1,0 +1,41 @@
+SALES REGRESSION PROJECT - NOTES
+
+1. Dataset
+-------------
+- 50 stores
+- Predictors: Price (numeric), Urban (Yes/No), US (Yes/No)
+- No missing values
+- Urban variable mostly 'Yes' for US stores
+
+2. Analysis Steps
+------------------
+- [x] Fit full multiple regression: Sales ~ Price + Urban + US
+- [x] Examine p-values for significance
+- [x] Fit reduced model excluding non-significant predictors
+- [x] Compare R^2 and Adjusted R^2 for full vs reduced models
+- [x] Compute 95% confidence intervals for significant predictors
+- [x] Diagnostics: check residuals, leverage, Cook's distance
+
+3. Preliminary Results
+-----------------------
+- Full model R^2: 0.239, Adjusted R^2: 0.234
+- Reduced model R^2: 0.239, Adjusted R^2: 0.235
+- Urban not significant (p ~ 0.936)
+- Price negative and significant (~ -0.0545)
+- US positive and significant (~ 1.2006)
+- Intercept ~ 13.0435
+
+4. Equations / Formulas
+------------------------
+- Multiple regression equation (full model):
+  Sales_hat = 13.0435 - 0.0219*Urban_Yes + 1.2006*US_Yes - 0.0545*Price
+- Standardized residual: r_i = e_i / (s * sqrt(1 - h_ii))
+- Cook's distance: D_i = ...
+
+5. To-Do / Notes
+-----------------
+- Include plots of residuals
+- Check for outliers |r_i| > 2 or 3
+- Identify high leverage points h_ii > 2*h_bar
+- Influence analysis (Cook's distance D_i > 0.5 or 1)
+- Ensure README.md has clean, polished summary for GitHub
